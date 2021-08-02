@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Trains</title>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+        <h3>Add Trains</h3>
+        <form action="#">
+            <div class="form_details">
+            <label for="train_no">Train No</label>
+            <input type="text" name="train_no" id="train_no" required autofocus>
+            <br />
+            <label for="train_name">Train Name</label>
+            <input type="text" name="train_name" id="train_name" required>
+            <br />
+            <label for="no_passenger">No of Passengers Allowed</label>
+            <input type="text" name="no_passenger" id="no_passenger" required>
+            <br />
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+            </div>
+        </form>
+        <a href="#">List Tasks</a> <br />
+        <a href="index.html">Home</a>
+
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $("#header").load("_header.html")
+        </script>
+
+    </main>
+</body>
+
+</html>

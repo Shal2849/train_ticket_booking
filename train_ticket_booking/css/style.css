@@ -1,0 +1,78 @@
+:root {
+    --backgroundColor: lightyellow;
+    --headerBackgroundColor: #364150;
+    --headerColor:white;
+    --brandColor:white;
+    --menuLinkColor: white;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  /* background-color: lightyellow; */
+  background-color: rgb(238, 243, 245);
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+header {
+  /* background-color: #364150; */
+  background-color: var(--headerBackgroundColor);
+  color: var(--headerColor);
+  padding: 10px;
+}
+.login_form{
+    margin: 20px;
+    padding: 20px;
+}
+
+.navbar {
+    margin: 10px;
+    padding: 0;
+}
+
+a.brand {
+  color: var(--brandColor);
+  text-decoration: none;
+  padding-right: 30px;
+  margin: 10px;
+}
+
+.nav-item {
+  color: var(--menuLinkColor);
+  text-decoration: none;
+  padding: 25px;
+}
+
+main {
+  margin: 10px;
+}
+.row{
+  border: 2px solid black;
+  width: 50%;
+  padding: 30px;
+  text-align:center;
+  background-color: darkgray;
+}
+
+.form-group {
+  display: block;
+  margin: 5px;
+}
+
+.form-group > label {
+  display: block;
+  margin: 2px;
+}
+
+.form-control {
+  display: block;
+}
+
+.form-check-inline {
+  display: block;
+}
+
+.form-check-input {
+  display: inline-block;
+}

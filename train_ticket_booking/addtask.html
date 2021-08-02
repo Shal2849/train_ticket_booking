@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+        <h3>Add Task</h3>
+        <form action="list_task.html">
+            <div class="row">
+            <label for="userId">Enter User Id</label>
+            <input type="text" name="userId" id="userId" required autofocus>
+            <br /><br />
+            <label for="taskName">Enter task name</label>
+            <input type="text" name="taskName" id="taskName" required>
+            <br /><br />
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+            </div>
+        </form>
+        <br>
+        <button><a href="list_task.html" style="text-decoration:none;">List Tasks</a></button>&nbsp;&nbsp;
+        <button><a href="index.html" style="text-decoration:none;">Home</a></button>
+
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $("#header").load("_header.html")
+        </script>
+
+    </main>
+</body>
+
+</html>
